@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#name {
+    margin: 0;
+}
+
+#location {
+    margin: 5px;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+#profilepic {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    color:white
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
